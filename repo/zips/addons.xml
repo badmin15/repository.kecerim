@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.kodisimplestream" version="0.6.0" name="kodisimplestream" provider-name="kecerim">
+<addons><addon id="plugin.video.kodisimplestream" version="0.6.0" name="kodisimplestream" provider-name="badmin15">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.requests" version="2.31.0" />
@@ -11,24 +11,24 @@
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="cs">KodiSimpleStream - Kodi plugin pro Webshare.cz</summary>
-  <description lang="cs_CZ">Jednoduchý Kodi plugin pro přehrávání videí z Webshare.cz. Pro více informací navštivte https://github.com/Kecerim24/plugin.video.kodisimplestream</description>
+  <description lang="cs_CZ">Jednoduchý Kodi plugin pro přehrávání videí z Webshare.cz. Pro více informací navštivte https://github.com/badmin15/plugin.video.kodisimplestream</description>
   <platform>all</platform>
   <settings>
     <setting id="username" type="text" label="Username" default="" />
     <setting id="password" type="text" label="Password" option="hidden" default="" />
   </settings>
 </extension>
-</addon><addon id="repository.kecerim" name="kecerim's repo" version="0.0.2" provider-name="kecerim">
-    <extension point="xbmc.addon.repository" name="kecerim's repo">
+</addon><addon id="repository.badmin15" name="badmin15's repo" version="0.0.2" provider-name="badmin15">
+    <extension point="xbmc.addon.repository" name="badmin15's repo">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Kecerim24/repository.kecerim/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Kecerim24/repository.kecerim/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kecerim24/repository.kecerim/main/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/badmin15/repository.kecerim/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/badmin15/repository.kecerim/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/badmin15/repository.kecerim/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>kecerim's repo</summary>
-        <description>kecerim's repo pro KodiSimpleStream</description>
+        <summary>badmin15's repo</summary>
+        <description>badmin15's repo pro KodiSimpleStream</description>
         <disclaimer />
         <platform>all</platform>
     </extension>
